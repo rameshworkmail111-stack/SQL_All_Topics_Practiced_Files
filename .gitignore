@@ -1,0 +1,28 @@
+﻿# Secrets and credentials
+.env
+*.env
+config.local.*
+*.pem
+*.key
+
+# DB dumps and local DBs
+*.dump
+*.backup
+*-prod.sql
+*-production.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Python / notebook junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
